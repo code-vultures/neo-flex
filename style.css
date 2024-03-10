@@ -9,6 +9,8 @@
 body{
     background-image: url(back.jpg);
      background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 nav{
@@ -17,6 +19,7 @@ nav{
     width: 100%;
     margin-top: 4%;
     border-bottom: 2px solid white;
+    flex-wrap: wrap;
 }
 
 ul{
@@ -33,6 +36,7 @@ a{
    text-decoration: none;
    color: aliceblue;
    font-weight:200;
+   text-wrap: wrap;
 }
 
 a:hover{
@@ -61,6 +65,7 @@ p{
     align-items: center;
     gap: 2rem;
 }
+
 label{
     text-align: center;
 }
